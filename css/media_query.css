@@ -1,0 +1,45 @@
+/* @media only screen and (max-width: 991px) {
+    .befor-block-2{
+        display: initial;
+    }
+    .navbar-brand{
+        width: 75%;
+    }
+    .aboutus .part-1 .image-block-1{
+        display: none;
+    }
+    .aboutus .part-1 .image-block-1-sub{
+        display: inherit !important;
+    }
+    .aboutus .part-2 .image-block-2{
+        order:1 !important;
+    }
+    .aboutus .part-2 .pera-block{
+        order:2 !important;
+        margin: 30px 0px;
+    }
+    .next_arrow{
+        right: 100px;
+        transition: 0.4s;
+    }
+    .prev_arrow{
+        left:100px;
+        transition: 0.4s;
+    }
+  } */
+/* @media only screen and (min-width: 991px){
+    .offcanvas.show {
+        display:none;
+    }
+    .modal-backdrop.show{
+        opacity: 0;
+    }
+  }  */
+/* @media only screen and (max-width: 468px) {
+    .home .title{
+        font-size: 32px !important;
+    }
+    .aboutus .Royal_table{
+        bottom: -23px !important;
+    }
+} */

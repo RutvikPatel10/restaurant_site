@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal_Restaurant</title>
+    <!---------------------------------------bootsrap-------------------------------------- -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--------------------------------------- Slick slider-------------------------------- -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <!--------------------------------------- time-picker------------------------------ -->
+    <link rel="stylesheet" href="css/time_picker.css">
+
+    <!------------------------------------------- css------------------------------------ -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_query.css">
+
+    <!---------------------------------------------scss----------------------------------- -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <!--------------------------------------------- AOS-------------------------------------- -->
+    <link href="css/aos.css" rel="stylesheet">
+    <!------------------------------------- font-awesome------------------------------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <!-- ----------------------------------------header------------------------------------ -->
+  <header>
+      <nav class="navbar nav-fill navbar-expand-lg navbar-light bg-light py-4">
+          <div class="container justify-content-start">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-none " id="navbarSupportedContent">
+                  <ul class="navbar-nav  mb-2 mb-lg-0 befor-block-1">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#"> <span>HOME</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> <span>ABOUT US</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> <span>MENU</span></a>
+                    </li>
+                  </ul>
+              </div>  
+              <a class="navbar-brand d-flex justify-content-center m-0 mx-1" href="#" >
+                  <img src="image/brand-logo.png" class="img-fluid" alt="">
+              </a>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav  mb-2 mb-lg-0 after-block-1">
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#"> <span>SERVICES</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"> <span>BLOG</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"> <span>CONTACT</span></a>
+                  </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <img src="image/brand-logo.png" class="img-fluid" alt="">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <hr class="m-0">
+            <div class="offcanvas-body">
+              <div>
+                <ul>
+                  <li><a href="#home1"><i class="fa-solid fa-house"></i> Home</a></li>
+                  <li><a href="#aboutus1"><i class="fa-solid fa-address-card"></i> About us</a></li>
+                  <li><a href="#menu1"><i class="fa-solid fa-border-all"></i> Menu</a></li>
+                  <li><a href="#services1"><i class="fa-solid fa-user-gear"></i> Services</a></li>
+                  <li><a href="#blog1"><i class="fa-brands fa-blogger"></i> Blog</a></li>
+                  <li><a href="#contact1"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </header>
+    <!--------------------------------- Welcome to Royaltable Restaurant..(home)------------------------------- -->
+    <section class="home" id="home1">
+      <div class="continer-fluid h-100 d-flex justify-content-center align-items-center ">
+        <div>
+          <p class="title text-white text-center">Welcome to Royaltable Restaurant</p>
+          <div class="d-flex justify-content-center">
+            <p class="text-white text-center home-pera">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+          </div>
+          <div class="text-center "data-aos="fade-up" data-aos-duration="1000"><button type="button" class="px-5 py-3 my-4 main-button">RESERVE A TABLE NOW</button></div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------- The Royal Table Restaurant..(AboutUs)------------------------------ -->
+    <section class="aboutus" id="aboutus1">
+      <div class="container py-5">
+        <div class="row my-3 part-1">
+          <div class="col-lg-5 image-block-1" data-aos="zoom-out-right">
+            <img src="image/aboutus  image1.png" class="aboutus-img1" alt="">
+          </div>
+          <div class="col-lg-7 d-flex align-items-center">
+            <div>
+              <p class="title"data-aos="fade-left" data-aos-duration="1500">The Royal Table Restaurant</p>
+              <div class="image-block-1-sub d-none" data-aos="zoom-out-right">
+                <img src="image/aboutus  image1.png" class="aboutus-img1" alt="">
+              </div> 
+              <p class="aboutus-pera pera1 m-0" data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet,  adipiscing . Lorem  consectetur adipiscing eliturna. dolor sit amet,  adipiscing eliturna. consectetur ipsum dolor sit amet, consectetur adipi scing elit  <span class="dots">...</span><span class="more-text">adipiscing eliturna. consectetur ipsum dolor sit amet, consectetur adipi scing elit adipiscing eliturna. consectetur ipsum dolor sit amet, consectetur adipi scing elit</span><span class="read-more-btn1">>>Read More</span></p>
+            </div> 
+          </div>  
+        </div>
+        <div class="row my-3 part-2">
+          <div class="col-lg-5 pera-block d-flex align-items-center">
+            <div data-aos="fade-right"  data-aos-duration="1500">
+              <p class="aboutus-pera pera2">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet adipiscing.
+              </p>
+              <p class="aboutus-pera pera2 m-0">Lorem  consectetur adipiscing eliturna. dolor sit amet,  adipiscing eliturna. consectetur ipsum dolor sit amet, consectetur adipi scing elit <span class="dots">...</span><span class="more-text">adipiscing eliturna. consectetur ipsum dolor sit amet, consectetur adipi scing elit</span><span class="read-more-btn2">>>Read More</span> </p>
+            </div>
+          </div>
+          <div class="col-lg-7 image-block-2" data-aos="zoom-out-left">
+            <div class="row position-relative image-block">
+              <div class="col-5">
+                <img src="image/aboutus image3.png" class="w-100 h-100" alt="">
+              </div>
+              <div class="col-7">
+                <img src="image/aboutus image2.png" class="w-100 h-100" alt="">
+              </div>
+              <div>
+                <img src="image/aboutus image4.png" class="position-absolute Royal_table" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------------Meet Our Experienced Chef’s..(chefs)----------------------------  -->
+    <section class="chefs py-5" >
+      <div class="container"><p class="title m-0">Meet Our Experienced Chef’s</p></div>
+      <div class="container-fluid py-5">
+        <div class="slick_slider_demo m-0">
+          <div class="slide mx-3  position-relative">
+              <img src="image/chefs img-1.png" class="w-100" alt="">
+              <div class="overlay " id="overlay1">
+                <div class="p-2 p-sm-5">
+                  <p class="chef-name m-0">Smith Harrison</p>
+                  <p class="chef-type">( Chief Chef )</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet adipiscing.</p>
+                  <p class="m-0"><i class="fa-brands fa-facebook-square "></i> / <i class="fa-brands fa-twitter-square"></i> / <i class="fa-brands fa-linkedin"></i> / <i class="fa-brands fa-instagram"></i></p>
+                </div>
+              </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+              <img src="image/chefs img-2.png" class="w-100" alt="">
+              <div class="overlay " id="overlay1">
+                <div class="p-2 p-sm-5">
+                  <p class="chef-name m-0">Smith Harrison</p>
+                  <p class="chef-type">( Chief Chef )</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet adipiscing.</p>
+                  <p class="m-0"><i class="fa-brands fa-facebook-square "></i> / <i class="fa-brands fa-twitter-square"></i> / <i class="fa-brands fa-linkedin"></i> / <i class="fa-brands fa-instagram"></i></p>
+                </div>
+              </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+              <img src="image/chefs img-3.png" class="w-100" alt="">
+              <div class="overlay" id="overlay1">
+                <div class="p-2 p-sm-5">
+                  <p class="chef-name m-0">Smith Harrison</p>
+                  <p class="chef-type">( Chief Chef )</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet adipiscing.</p>
+                  <p class="m-0"><i class="fa-brands fa-facebook-square "></i> / <i class="fa-brands fa-twitter-square"></i> / <i class="fa-brands fa-linkedin"></i> / <i class="fa-brands fa-instagram"></i></p>
+                </div>
+              </div>
+          </div>
+          <div class="slide mx-3 position-relative">
+              <img src="image/chefs img-4.png" class="w-100" alt="">
+              <div class="overlay" id="overlay1">
+                <div class="p-2 p-sm-5">
+                  <p class="chef-name m-0">Smith Harrison</p>
+                  <p class="chef-type">( Chief Chef )</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet adipiscing.</p>
+                  <p class="m-0"><i class="fa-brands fa-facebook-square "></i> / <i class="fa-brands fa-twitter-square"></i> / <i class="fa-brands fa-linkedin"></i> / <i class="fa-brands fa-instagram"></i></p>
+                </div>
+              </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+            <img src="image/chefs img-5.png" class="w-100" alt="">
+            <div class="overlay" id="overlay1">
+              <div class="p-2 p-sm-5">
+                <p class="chef-name m-0">Smith Harrison</p>
+                <p class="chef-type">( Chief Chef )</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbi Lorem ipsum dolor sit amet adipiscing.</p>
+                <p class="m-0"><i class="fa-brands fa-facebook-square "></i>  /  <i class="fa-brands fa-twitter-square"></i>  /  <i class="fa-brands fa-linkedin"></i>  /  <i class="fa-brands fa-instagram"></i></p>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <!---------------------------------------------- Photo gallary ---------------------------------------->
+    <section class="photo_gallary" id="photogallary1" >
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-4 first-col ">
+              <img src="image/photo_gallary img 1.png" class="img-1" alt="" data-aos="fade-right"data-aos-duration="900">
+              <img src="image/photo_gallary img 2.png" class="img-2" alt="" data-aos="fade-right"data-aos-duration="900">
+              <img src="image/photo_gallary img 3.png" class="img-3" alt="" data-aos="fade-right"data-aos-duration="900">
+          </div>
+          <div class="col-lg-4 second-col">
+              <img src="image/photo_gallary img 4.png" class="img-1" alt=""data-aos="zoom-out-up"data-aos-duration="900">
+              <img src="image/photo_gallary img 5.png" class="img-2 " alt=""data-aos="zoom-out-up"data-aos-duration="900">
+              <img src="image/photo_gallary img 6.png" class="img-3" alt=""data-aos="zoom-out-up"data-aos-duration="900">
+          </div>
+          <div class="col-lg-4 last-col">
+              <img src="image/photo_gallary img 7.png" class="img-1" alt=""data-aos="fade-left"data-aos-duration="900">
+              <img src="image/photo_gallary img 8.png" class="img-2" alt=""data-aos="fade-left"data-aos-duration="900">
+              <img src="image/photo_gallary img 9.png" class="img-3" alt=""data-aos="fade-left"data-aos-duration="900">
+          </div>
+        </div>
+        <div class="text-center "data-aos="fade-up" data-aos-duration="1000"><button type="button" class=" my-4 main-button">VIEW PHOTO GALLARY</button></div>
+      </div>
+    </section>
+    <!-- -----------------------------------------Our Special Food Menu----------------------------- -->
+    <p class="title text-center m-4" id="menu1">Our Special Food Menu</p>
+    <section class="food_menu">
+      <div class="container py-5">
+        <div class="row ">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4 image-block">
+                  <img src="image/food_menu _img1.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Sun-Dried Tomato 
+                      Bruschetta</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor...</p>
+                    <button type="button" class="btn btn-danger">ORDER</button>
+                    <button type="button" class="btn btn-dark">DETAILS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4 image-block">
+                  <img src="image/food_menu _img2.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">American Brunch 
+                      Combo Menu</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor...</p>
+                    <button type="button" class="btn btn-danger">ORDER</button>
+                    <button type="button" class="btn btn-dark">DETAILS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4 image-block">
+                  <img src="image/food_menu _img3.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Lamb Chops Sizzled 
+                      with Garlic</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor...</p>
+                    <button type="button" class="btn btn-danger">ORDER</button>
+                    <button type="button" class="btn btn-dark">DETAILS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4 image-block">
+                  <img src="image/food_menu _img4.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Sun-Dried Tomato 
+                      Bruschetta</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor...</p>
+                    <button type="button" class="btn btn-danger">ORDER</button>
+                    <button type="button" class="btn btn-dark">DETAILS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4 image-block">
+                  <img src="image/food_menu _img5.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">American Brunch 
+                      Combo Menu</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor...</p>
+                    <button type="button" class="btn btn-danger">ORDER</button>
+                    <button type="button" class="btn btn-dark">DETAILS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4 image-block">
+                  <img src="image/food_menu _img6.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Lamb Chops Sizzled 
+                      with Garlic</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor...</p>
+                    <button type="button" class="btn btn-danger">ORDER</button>
+                    <button type="button" class="btn btn-dark">DETAILS</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center "data-aos="fade-up" data-aos-duration="1000"><button type="button" class="main-button">BROWSE ALL MENU ITEMS</button></div>
+      </div>
+    </section>
+    <!--------------------------------------------services----------------------------------- -->
+    <section class="services" id="services1">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <div class="h-100">
+              <div class="position-relative service-img-block-1"data-aos="fade-right"data-aos-duration="4000">
+                <img src="image/services img-1.png" class="img-1" alt="">
+                <p class="position-absolute text-white image-caption p-4">PRIVATE DINING & WEDDINGS</p>
+              </div>
+              <div class="position-relative service-img-block-2"data-aos="fade-left"data-aos-duration="4000">
+                <img src="image/services img-2.png" class="img-2" alt="">
+                <p class="position-absolute text-white image-caption p-4">PRIVATE DINING & WEDDINGS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="service-title py-5"data-aos="fade-left"data-aos-duration="1500">“Well Customized to fit the Specific Desires of Every Occassion, with our Private Dining...”</p>
+            <p data-aos="fade-left"data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore morbvi Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore morbvi Lorem adipiscing . Lorem  consectetur adipiscing eliturna. do eiusmorbi Lorem ipsum dolor sit...</p>
+            <p class=""data-aos="fade-left"data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed ipsum dolor sit amet, adipiscing . Lorem  consectetur adipiscing eliturna. do eiusmorbi Lorem ipsum dolor sit...</p>
+            <div class=""data-aos="fade-up" data-aos-duration="1000"><button type="button" class="my-5 main-button">BROWSE ALL MENU ITEMS</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------- Booking-------------------------------------- -->
+    <section class="booking py-5">
+      <div class="container">
+        <p class="title text-white"data-aos="fade-right"data-aos-duration="1500">Book a Table for Dinner</p>
+        <p class="text-white"data-aos="fade-left"data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed ipsum <br> dolor sit amet, adipiscing. Lorem  consectetur adipiscing eliturna. do
+         <br>  eiusmorbi Lorem ipsum dolor sit...</p>
+        <div class="row" data-aos="fade-right"data-aos-duration="1500">
+          <div class="col-lg-2 col-md-4 my-2">
+            <input type="date" class="w-100 border-0" placeholder=" date">
+          </div>
+          <div class="col-lg-2 col-md-4 my-2 ">
+            <div class="input_time date_time d-flex align-items-center justify-content-end">
+              <input type="text" class="timepicker border-0 w-100" placeholder="Select time">
+              <span class="d-flex justify-content-center align-items-center position-absolute border-0">
+                <i class="fas fa-clock"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 my-2">
+            <select class="form-select" aria-label="Default select example">
+              <option selected disabled>no. of persons</option>
+              <option value="1">1 person</option>
+              <option value="2">2 persons</option>
+              <option value="3">3 persons</option>
+              <option value="4">4 persons</option>
+              <option value="5">5 persons</option>
+              <option value="6">6 persons</option>
+              <option value="7">7 persons</option>
+              <option value="8">8 persons</option>
+              <option value="9">9 persons</option>
+              <option value="10">10 persons</option>
+            </select>
+          </div>
+          <div class="col-lg-2 col-md-4 my-2"><input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name"></div>
+          <div class="col-lg-2 col-md-4 my-2"><input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email"></div>
+          <div class="col-lg-2 col-md-4 my-2"><button class="btn btn-info w-100 text-white" type="submit" >reserve</button></div>
+        </div>
+        <p class="text-white another-booking-ways py-5 m-0"data-aos="fade-left"data-aos-duration="1500">You can Book a Table Over Phone. Call : <span>1-800-2345-678</span> or email <span>booking@website.com</span></p>
+      </div>
+    </section>
+    <!-- ------------------------------------------Blog----------------------------------------->
+    <section class="Blog py-5" id="blog1">
+      <div class="container">
+        <p class="title m-0 py-5">Read Recent Blog Articles</p>
+        <div class="slick-slider-demo-2">
+          <div class="slide mx-3  position-relative">
+            <img src="image/blog_img_1.png" class="w-100" alt="">
+            <div class="position-absolute blog-caption" >
+                <p class="m-0 px-lg-5 text-center">Mummy Hot Dogs Are A Must At Your Halloween Party</p>
+                <div class="text-center "><button type="button" class="px-5 py-3 my-5 main-button">RESERVE</button></div>
+            </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+            <img src="image/blog_img_2.png" class="w-100" alt="">
+            <div class="position-absolute blog-caption" >
+                <p class="m-0 p-lg-5 text-center">Buffalo Chicken Stuffed Bread Is Worth Every Carb</p>
+            </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+            <img src="image/blog_img_3.png" class="w-100" alt="">
+            <div class="position-absolute blog-caption" >
+                <p class="m-0 p-lg-5 text-center">This Turkey Cheese Ball Plans On Stealing The Show</p>
+            </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+            <img src="image/blog_img_1.png" class="w-100" alt="">
+            <div class="position-absolute blog-caption" >
+                <p class="m-0 px-lg-5 text-center">Mummy Hot Dogs Are A Must At Your Halloween Party</p>
+                <div class="text-center "><button type="button" class="px-5 py-3 my-5 main-button">RESERVE</button></div>
+            </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+            <img src="image/blog_img_2.png" class="w-100" alt="">
+            <div class="position-absolute blog-caption" >
+                <p class="m-0 p-lg-5 text-center">Buffalo Chicken Stuffed Bread Is Worth Every Carb</p>
+            </div>
+          </div>
+          <div class="slide mx-3  position-relative">
+            <img src="image/blog_img_3.png" class="w-100" alt="">
+            <div class="position-absolute blog-caption" >
+                <p class="m-0 p-lg-5 text-center">This Turkey Cheese Ball Plans On Stealing The Show</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------------------------Clients----------------------------------------->
+    <section class="clients py-5" id="clients1">
+      <div class="container pt-lg-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="clients-title m-0 py-5"data-aos="fade-right"data-aos-duration="1500">“We Make Our Clients Day happy and Very Special...”</p>
+            <div class="card  border-0"data-aos="fade-left"data-aos-duration="1500" >
+              <div class="row g-0">
+                <div class="col-md-3  text-center pt-3">
+                  <img src="image/client_img.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <p class="text-md-center text-lg-start" >“Lorem ipsum dolor sit amet, consect etur adipi scing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing eliturna morbi Lorem...”</p>
+                    <h5 class="card-title text-md-center text-lg-start">Andrew Mathews</h5>
+                    <p class="text-md-center text-lg-start " >Sydney, Australia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card  border-0"data-aos="fade-right"data-aos-duration="1500" >
+              <div class="row g-0">
+                <div class="col-md-9 priority-2">
+                  <div class="card-body">
+                    <p class="text-md-center text-lg-end">“Lorem ipsum dolor sit amet, consect etur adipi scing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing eliturna morbi Lorem...”</p>
+                    <h5 class="card-title text-md-center text-lg-end">Andrew Mathews</h5>
+                    <p class="text-md-center text-lg-end ">Sydney, Australia</p>
+                  </div>
+                </div>
+                <div class="col-md-3 priority-1  text-center pt-3">
+                  <img src="image/client_img.png" class="img-fluid rounded-circle" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 image-block  ">
+            <div class="text-end position-relative"><img src="image/client_img_2.png" class="img-1" alt=""data-aos="fade-left"data-aos-duration="1500">
+              <img src="image/client_img_3.png" class="img-2 position-absolute" alt=""data-aos="fade-right"data-aos-duration="1500"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="break-line my-5"></div>
+    <!---------------------------------------------Contact-------------------------------------- -->
+    <section class="contact py-5" id="contact1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <div class="position-relative">
+              <img src="image/contact_img_1.png" class="img-1" alt=""data-aos="fade-right"data-aos-duration="1500">
+              <img src="image/contact_img_2.png" class="img-2 position-absolute" alt=""data-aos="fade-left"data-aos-duration="1500">
+            </div>
+          </div>
+          <div class="col-lg-6  d-flex flex-column justify-content-center">
+            <div class=" py-4 p-md-5"data-aos="fade-left"data-aos-duration="1500">
+              <p class="contact-title">Subscribe to Newsletter</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor ut labore et morbvi Lorem...</p>
+              <div class="d-flex input-block p-1">
+                <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name">
+                <button class="btn btn-dark">Subscribe</button>
+              </div>
+            </div>
+            <div class=" py-4 p-md-5"data-aos="fade-left"data-aos-duration="1500">
+              <p class="contact-title">Contact for Information</p>
+              <p>4th Floor, Amira Building, <br>
+                123 North Side Street, Sydney, Australia - 45678,<br>
+                Phone:  1 800 123456789
+              </p>
+              <p>info@yourrestaurant.com   /  <span class="fw-bold text-decoration-underline pe-auto">yourrestaurant.com</span></p>
+              <p>Mon–Sat: 8:00am–6:00pm  /  Sunday: Closed</p>
+              <p class="m-0 icons"><i class="fa-brands fa-facebook-square "></i>  /  <i class="fa-brands fa-twitter-square"></i>  /  <i class="fa-brands fa-linkedin"></i>  /  <i class="fa-brands fa-instagram"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------ footer------------------------------------- -->
+    <footer class="bg-dark py-5">
+      <p class="text-white text-center footer-bar m-0 px-3"><a href="#home1">Home</a> ~ <a href="#aboutus1">About Us </a> ~ <a href="#menu1">Our Menu</a> ~ <a href="#photogallary1">View Gallery</a> ~ <a href="#clients1">Client Testimonials </a> ~ <a href="#contact1">Contact Us</a></p>
+      <p class="text-white text-center m-0 pt-2">(C) 2019. All Rights Reserved. Designed & Developed by a <span class="pe-auto text-decoration-underline">Template.net</span></p>
+    </footer>
+    <!--------------------------------------------javascript------------------------------- -->
+    <script src="js/Jquery_min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/slick-slider-min.js"></script>
+    <script type="text/javascript" src="js/slick-slider-jquery-migrate.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/time_picker-min.js"></script>
+    <script src="js/aos_cdn.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/slick-slider.js"></script>
+    <script src="js/time_Picker.js"></script>
+    <script src="js/AOS.js"></script>
+</body>
+</html>

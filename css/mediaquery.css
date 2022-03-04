@@ -1,0 +1,95 @@
+@media (max-width: 1400px) {
+  .clients .image-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  .befor-block-2 {
+    display: initial;
+  }
+
+  .navbar-brand {
+    width: 75%;
+  }
+
+  .aboutus .part-1 .image-block-1 {
+    display: none;
+  }
+  .aboutus .part-1 .image-block-1-sub {
+    display: inherit !important;
+  }
+  .aboutus .part-2 .image-block-2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .aboutus .part-2 .pera-block {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 30px 0px;
+  }
+
+  .next_arrow {
+    right: 100px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .prev_arrow {
+    left: 100px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .photo_gallary .first-col img, .photo_gallary .second-col img, .photo_gallary .last-col img {
+    height: auto !important;
+  }
+
+  .services .service-title {
+    font-size: 32px;
+  }
+
+  .clients .clients-title {
+    font-size: 32px;
+  }
+  .clients .card .priority-1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .clients .card .priority-2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+@media (min-width: 991px) {
+  .offcanvas .show {
+    display: none;
+  }
+  .offcanvas .modal-backdrop.show {
+    opacity: 0;
+  }
+}
+@media (max-width: 468px) {
+  .home .title {
+    font-size: 32px;
+  }
+
+  .aboutus .Royal_table {
+    bottom: -23px;
+  }
+
+  .services .image-caption {
+    font-size: 16px;
+  }
+}
